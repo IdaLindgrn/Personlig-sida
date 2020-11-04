@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color:beige;
+    font-size: 500%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+
+
+ h2 {
+     color: beige;
+     font-style: italic;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+     padding-bottom: 1%;
+ }
+
+
+ header {
+    background-image: url('img/Skog.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+  padding-top: 7%;
+  color: rgb(129, 99, 77) ;
+ }
+
+
+ body {
+    margin: 3%;
+    background-color: beige;
+ }
+
+ nav {
+    margin-top: 1%;
+    font-size: 150%;
+    margin-bottom: 1%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: rgb(129, 99, 77);
+}
+
+
+ main {
+     background-color:bisque;
+     padding-left: 8%;
+     padding-right: 8%;
+     font-style: italic;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 120%;
+     text-align: center;
+     color: rgb(129, 99, 77);
+ }
+
+ 
+ img {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+  footer {
+    padding-bottom: 5%;
+    background-color: rgb(129, 99, 77);
+    color: bisque;
+    text-align: center;
+    padding-top: 2%;
+  }
+
+p{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+tr {
+    display: flex;
+    justify-content: space-around;
+    
+    display: flex;
+    align-items: center;
+}
+
+h4{
+    font-size: 200%;
+margin-top: 3%;
+margin-bottom: 2%;
+}
+
+footer a{
+   color: bisque; 
+   display: flex;
+   flex-direction: column;
+   font-size: 120%;
+}
+
+
+
+        
